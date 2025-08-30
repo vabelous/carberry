@@ -72,8 +72,7 @@
           "buildTarget": "auth:build:development"
         }
       },
-      "defaultConfiguration": "development",
-      "dependsOn": ["orenburg:serve"]
+      "defaultConfiguration": "development"
     },
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
