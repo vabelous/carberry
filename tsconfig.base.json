@@ -15,6 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@carberry/back-end-presentation-gateways-charts-registration": [
+        "lib/back-end/presentation/gateways/charts/registration/src/index.ts"
+      ],
+      "@carberry/front-end-core-ports-secondary-websockets": [
+        "lib/front-end/core/ports/secondary/websockets/src/index.ts"
+      ],
+      "@carberry/front-end-infrastructure-backend-websockets-websockets": [
+        "lib/front-end/infrastructure/backend/websockets/websockets/src/index.ts"
+      ],
       "auth/Routes": [
         "apps/frontend/remotes/auth/src/app/remote-entry/entry.routes.ts"
       ]

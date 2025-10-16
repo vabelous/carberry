@@ -1,0 +1,22 @@
+{
+  "name": "back-end-presentation-gateways-charts-registration",
+  "$schema": "../../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "lib/back-end/presentation/gateways/charts/registration/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/lib/back-end/presentation/gateways/charts/registration",
+        "tsConfig": "lib/back-end/presentation/gateways/charts/registration/tsconfig.lib.json",
+        "packageJson": "lib/back-end/presentation/gateways/charts/registration/package.json",
+        "main": "lib/back-end/presentation/gateways/charts/registration/src/index.ts",
+        "assets": [
+          "lib/back-end/presentation/gateways/charts/registration/*.md"
+        ]
+      }
+    }
+  }
+}
