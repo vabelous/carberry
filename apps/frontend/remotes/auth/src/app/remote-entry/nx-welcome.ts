@@ -21,7 +21,7 @@ export class NxWelcome implements OnInit
     console.log(this._websocketsPort);
     this._websocketsPort.connect();
     this._websocketsPort
-    .sendMessage('Hello from auth', 'auth');
+    .sendMessage('Привет белочка', 'auth');
   }
 
 }

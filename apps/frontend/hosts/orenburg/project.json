@@ -70,7 +70,7 @@
         }
       },
       "defaultConfiguration": "development",
-      "dependsOn": ["auth:serve"]
+      "dependsOn": ["auth:serve", "chart:serve"]
     },
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
